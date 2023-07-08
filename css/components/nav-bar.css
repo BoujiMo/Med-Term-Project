@@ -1,0 +1,101 @@
+/* Your CSS now WITH BULMA! */
+/* https://www.youtube.com/watch?v=ra-Bl1iYG7g */
+
+@import url("../bulma/css/bulma.css");
+
+/* And only for the first calls the fonts and colors defined in the project!*/
+/* https://www.youtube.com/watch?v=fsQiHTSpiYw*/
+
+@import url("./colors-fonts.css");
+
+/* Now with animations!*/
+/*  */
+
+@import url("./animations.css");
+
+html {
+    background-color: var(--background);
+}
+
+.background {
+    background-color: var(--background);
+}
+
+body {
+    width: 100%;
+}
+
+.section-1100 {
+    width: 80%;
+    max-width: 1100px;
+}
+
+section {
+    margin: 100px auto 150px !important;
+    width: 90%;
+    max-width: 1320px;
+}
+
+/* Everything you need to make your own navbar. LET'S NAVIGATE!*/
+/* https://www.youtube.com/watch?v=m8OlDPqYBLw */
+
+.navbar-1 {
+    margin-top: 70px;
+    max-width: 1100px !important;
+}
+
+.navbar-li {
+    justify-content: space-between;
+    background-color: #c8c8c8;
+}
+
+.nav-link {
+    color: var(--neutral-medium);
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-li {
+        margin-left: 25%;
+        background-color: var(--background);
+    }
+
+    .nav-link {
+        color: var(--neutral-medium);
+        margin: 0 5%;
+        border-bottom: none;
+    }
+}
+
+.nav-link:hover {
+    background-color: var(--background);
+}
+
+.nav-link-1 {
+    color: var(--primary-default);
+}
+
+.logo {
+    width: 60.53px;
+    height: 18.46px;
+    animation: bright-boom 3s ease-out;
+}
+
+.button-bw {
+    height: fit-content;
+}
+
+.button-bw a {
+    color: white;
+    background-color: var(--primary-default);
+    padding: 15px 37px;
+    gap: 10px;
+    animation: palpitate 1.5s linear infinite;
+}
+
+.button-bw a:hover {
+    background-color: var(--neutral-medium);
+}
+
+/* "This is the end, my only friend, THE END"*/
+/* https://www.youtube.com/watch?v=VScSEXRwUqQ*/
